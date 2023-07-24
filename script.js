@@ -5,7 +5,7 @@ const button = document.querySelectorAll(".content button")
 const ctn = document.querySelector(".content")
 
 function clik (btn){
-  btn.textContent == "Iya 🤗" ? img.src = "img/malu.gif" : img.src = "img/patahHati.gif" 
+  btn.textContent == "Iya 🤗" ? img.src = "malu.gif" : img.src = "img/patahHati.gif" 
   button[0].style.display = "none"
   button[1].style.display = "none"
   ctn.style.height = "250px"
