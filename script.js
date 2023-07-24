@@ -5,7 +5,7 @@ const button = document.querySelectorAll(".content button")
 const ctn = document.querySelector(".content")
 
 function clik (btn){
-  btn.textContent == "Iya 🤗" ? img.src = "malu.gif" : img.src = "img/patahHati.gif" 
+  btn.textContent == "Iya 🤗" ? img.src = "malu.gif" : img.src = "patahHati.gif" 
   button[0].style.display = "none"
   button[1].style.display = "none"
   ctn.style.height = "250px"
@@ -17,7 +17,7 @@ function content(){
   ctn.style.width = "300px"
   ctn.style.height = "400px"
   ctn.style.borderRadius = "5px"
-  kata.textContent = "Hay eksa, cuma mau ucapin, semangat ya 😊"
+  kata.textContent = "Hay eksaa, cuma mau ucapin, semangat ya 😊"
 }
 function pesanHilang(){
   const divpesan = document.querySelector("div.pesan")
