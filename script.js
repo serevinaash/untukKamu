@@ -17,7 +17,7 @@ function content(){
   ctn.style.width = "300px"
   ctn.style.height = "400px"
   ctn.style.borderRadius = "5px"
-  kata.textContent = "Hay eksaa, kamu pergi ya??"
+  kata.textContent = "Hay tayo??"
 }
 function pesanHilang(){
   const divpesan = document.querySelector("div.pesan")
