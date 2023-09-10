@@ -5,12 +5,12 @@ const button = document.querySelectorAll(".content button")
 const ctn = document.querySelector(".content")
 
 function clik (btn){
-  btn.textContent == "Iya 🤗" ? img.src = "malu.gif" : img.src = "jempol.gif" 
+  btn.textContent == "Iya 🤗" ? img.src = "img/jempol.gif" : img.src = "img/patahHati.gif" 
   button[0].style.display = "none"
   button[1].style.display = "none"
   ctn.style.height = "250px"
   ctn.style.width = "270px"
-  return btn.textContent == "Iya 🤗" ?  : kata.textContent = "Fighting, Katanya mau S.T"
+  return btn.textContent == "Iya 🤗" ? kata.textContent = "Gacorrr" : kata.textContent = "semangat cuy, kata nya mau S.T"
   
 }
 function content(){
