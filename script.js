@@ -10,7 +10,7 @@ function clik (btn){
   button[1].style.display = "none"
   ctn.style.height = "250px"
   ctn.style.width = "270px"
-  return btn.textContent == "Iya 🤗" ? kata.textContent = "Gacorrr" : kata.textContent = "semangat cuy, kata nya mau S.T"
+  return btn.textContent == "Iya 🤗" ? kata.textContent = "" : kata.textContent = "semangat cuy, kata nya mau S.T"
   
 }
 function content(){
